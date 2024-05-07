@@ -93,6 +93,7 @@ namespace TextRPG
                 DebuffActiveHandler -= deBuff.ActiveDebuff;
             }
             DeBuffs.Clear();
+            CrowdControlFlag = ECrowdControlType.DEFAULT;
         }
 
         public virtual void CostMana(int cost)
